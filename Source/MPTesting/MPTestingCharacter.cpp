@@ -69,7 +69,7 @@ void AMPTestingCharacter::OpenLobby()
 		return;
 	}
 
-	World->ServerTravel("/Game/ThirdPersonCPP/Maps/Lobby?listen");
+	World->ServerTravel("/Game/ThirdPerson/Maps/Lobby?listen");
 }
 
 void AMPTestingCharacter::CallOpenLevel(const FString& Address)
